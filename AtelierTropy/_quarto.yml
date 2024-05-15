@@ -9,6 +9,10 @@ book:
     - "Julien Rabaud"
   date: "2024-05-16"
   page-navigation: true
+  repo-url: https://github.com/ujubib/Quarto_Atelier_Tropy
+  repo-subdir: /AtelierTropy/
+  repo-actions: [source, issue]
+  downloads: [pdf, epub]
   chapters:
     - index.qmd
     - intro.qmd
@@ -23,6 +27,8 @@ format:
     lang: fr
   pdf:
     documentclass: scrreprt
+  epub: 
+    epub-cover-image: cover.png
 
 
 

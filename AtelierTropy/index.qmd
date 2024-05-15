@@ -18,5 +18,5 @@ Fait par des chercheurs pour des chercheurs par [Digital Scholar](https://digita
 ::: {layout-ncol="2"}
 ![[Les jeudis d'ITEM](https://item.univ-pau.fr/fr/activites-scientifiques/jeudis-d-item.html)](img/jeudi-ditem-1-1-1038x576-1.jpg "bandeau les jeudis d'ITEM")
 
-![[Tropy](https://tropy.org)](img/tropy-app-icon-1024x1024.png "logo Tropy"){width="150"}
+![[Tropy](https://tropy.org)](img/tropy-app-icon-1024x1024.png "logo Tropy"){width="185"}
 :::
