@@ -1,0 +1,22 @@
+---
+title: Accueil
+lightbox: true
+fig-cap-location: top
+---
+
+![](img/tropy1.png){fig-align="center" width="50%"}
+
+Tropy est un logiciel de gestion d'images pour la Recherche
+
+-   scans de documents anciens
+-   photographies d'archives
+-   photographies de terrain
+-   ...
+
+Fait par des chercheurs pour des chercheurs par [Digital Scholar](https://digitalscholar.org/) (comme [Zotero](https://www.zotero.org/) et [Omeka](https://omeka.org/)) :::
+
+::: {layout-ncol="2"}
+![[Les jeudis d'ITEM](https://item.univ-pau.fr/fr/activites-scientifiques/jeudis-d-item.html)](img/jeudi-ditem-1-1-1038x576-1.jpg "bandeau les jeudis d'ITEM")
+
+![[Tropy](https://tropy.org)](img/tropy-app-icon-1024x1024.png "logo Tropy"){width="150"}
+:::

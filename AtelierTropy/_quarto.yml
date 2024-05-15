@@ -1,0 +1,28 @@
+project:
+  type: book
+
+book:
+  title: "Atelier Tropy"
+  subtitle: "dans le cadre des jeudis d'ITEM"
+  author: 
+    - Mélanie Le Couédic
+    - "Julien Rabaud"
+  date: "2024-05-16"
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    lang: fr
+  pdf:
+    documentclass: scrreprt
+
+
+
