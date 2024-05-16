@@ -8,5 +8,14 @@
       "/tropy-videos.html",
       "/tropy-blogs.html"
     ]
+  },
+  {
+    "listing": "/prise-en-main.html",
+    "items": [
+      "/projet.html",
+      "/modeles.html",
+      "/import.html",
+      "/export.html"
+    ]
   }
 ]

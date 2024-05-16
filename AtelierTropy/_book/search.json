@@ -73,5 +73,76 @@
       "Ressources sur Tropy",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Billets de blog</span>"
     ]
+  },
+  {
+    "objectID": "prise-en-main.html",
+    "href": "prise-en-main.html",
+    "title": "Prise en main",
+    "section": "",
+    "text": "Trier par\n       Ordre par défaut\n         \n          Titre\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitre\n\n\n\n\n\n\nCréer un projet\n\n\n\n\nLes modèles de documents\n\n\n\n\nImporter des photos\n\n\n\n\nExporter (projet, photos, données)\n\n\n\n\n\nAucun article correspondant",
+    "crumbs": [
+      "Prise en main"
+    ]
+  },
+  {
+    "objectID": "projet.html",
+    "href": "projet.html",
+    "title": "6  Créer un projet",
+    "section": "",
+    "text": "Menu: Fichier &gt; Nouveau &gt; Projet (Ctrl+Maj+P)\n\n\n\nLui donner un nom\nChoisir le type (voir New Project Types in Tropy 1.13)\n\nStandard : Copie les photos dans le dossier du projet à l’import\nAdvanced : Lien vers les photos sur votre disque (/!\\)\n\n\n\n\n\nMenu: Fichier &gt; Nouveau &gt; Projet (Ctrl+Maj+P)",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Créer un projet</span>"
+    ]
+  },
+  {
+    "objectID": "fair.html",
+    "href": "fair.html",
+    "title": "Principes FAIR",
+    "section": "",
+    "text": "Inspirés par le 5-Star Open Data proné par Tim-Berners Lee, mis en forme par Michael Hausenblas sur ce site : http://5stardata.info/fr/ [22 janvier 2012].\n\n\n\n\n\n\n\nLes étapes 5-Star OpenData\n\n\n\n\n\n\nIllustration des étapes 5-Star OpenData\n\n\n\n\n\n\nétoiles\nétape\n\n\n\n\n★\nPubliez vos données sur le Web (peu importe leur format) avec une licence ouverte\n\n\n★★\nPubliez-les en tant que données structurées (par exemple, un document Excel au lieu d’une image scannée d’un tableau)\n\n\n★★★\nPubliez-les dans un format ouvert et non-propriétaire (par exemple, un CSV plutôt qu’un Excel)\n\n\n★★★★\nUtilisez des URI pour désigner des choses dans vos données, afin que les gens puissent faire des références à celles-ci\n\n\n★★★★★\nliez vos données à d’autres données pour y ajouter du contexte\n\n\n\n\n\n\n\nDécrits ici, d’aprèsThe FAIR Guiding Principles for Scientific Data Management and Stewardship. DOI\n\n\nThe principles refer to three types of entities: data (or any digital object), metadata (information about that digital object), and infrastructure. For instance, principle F4 defines that both metadata and data are registered or indexed in a searchable resource (the infrastructure component).\n\n\nFindableAccessibleInteroperableReusable\n\n\nThe first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process.\n\nF1. (Meta)data are assigned a globally unique and persistent identifier\nF2. Data are described with rich metadata (defined by R1 below)\nF3. Metadata clearly and explicitly include the identifier of the data they describe\nF4. (Meta)data are registered or indexed in a searchable resource\n\n\n\nOnce the user finds the required data, she/he/they need to know how can they be accessed, possibly including authentication and authorisation.\n\nA1. (Meta)data are retrievable by their identifier using a standardised communications protocol\n\nA1.1 The protocol is open, free, and universally implementable\nA1.2 The protocol allows for an authentication and authorisation procedure, where necessary\n\nA2. Metadata are accessible, even when the data are no longer available\n\n\n\nThe data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.\n\nI1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.\nI2. (Meta)data use vocabularies that follow FAIR principles\nI3. (Meta)data include qualified references to other (meta)data\n\n\n\nThe ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.\n\nR1. (Meta)data are richly described with a plurality of accurate and relevant attributes\n\nR1.1. (Meta)data are released with a clear and accessible data usage license\nR1.2. (Meta)data are associated with detailed provenance\nR1.3. (Meta)data meet domain-relevant community standards",
+    "crumbs": [
+      "Principes FAIR"
+    ]
+  },
+  {
+    "objectID": "iiif.html",
+    "href": "iiif.html",
+    "title": "Autour du standard IIIF",
+    "section": "",
+    "text": "Importer dans Tropy des documents Gallica via le module IIIF",
+    "crumbs": [
+      "Autour du standard IIIF"
+    ]
+  },
+  {
+    "objectID": "iiif.html#importer-dans-tropy-des-documents-gallica-via-le-module-iiif",
+    "href": "iiif.html#importer-dans-tropy-des-documents-gallica-via-le-module-iiif",
+    "title": "Autour du standard IIIF",
+    "section": "",
+    "text": "API IIIF de récupération des images de Gallica :\n\nBase URL : gallica.bnf.fr/\nManifest : iiif/{ark}/manifest.json\nModèle : gallica.bnf.fr/iiif/ark:/XXXXX/manifest.json\nExemples :\n\ngallica.bnf.fr/iiif/ark:/12148/bd6t538312611/manifest.json\ngallica.bnf.fr/iiif/ark:/12148/btv1b8451475v/manifest.json",
+    "crumbs": [
+      "Autour du standard IIIF"
+    ]
+  },
+  {
+    "objectID": "iiif.html#bonus",
+    "href": "iiif.html#bonus",
+    "title": "Autour du standard IIIF",
+    "section": "Bonus",
+    "text": "Bonus\n\nPublier une image avec ses annotations : utilisation de Tesselle en histoire de l’art - Antoine Courtin (Numérique et recherche en histoire de l’art, 2020).\n\nTesselle - médialab SciencesPo\n\nAvec des sources iiif : Adno\n\nExemples\nDocumentation",
+    "crumbs": [
+      "Autour du standard IIIF"
+    ]
+  },
+  {
+    "objectID": "iiif.html#footnotes",
+    "href": "iiif.html#footnotes",
+    "title": "Autour du standard IIIF",
+    "section": "",
+    "text": "Europeana IIIF APIs↩︎\nAPI IIIF de récupération des images de Gallica↩︎",
+    "crumbs": [
+      "Autour du standard IIIF"
+    ]
   }
 ]

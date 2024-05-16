@@ -1,0 +1,17 @@
+---
+listing:
+  id: main
+  sort: "date"
+  fields: [title]
+  type: table
+  contents:
+    - projet.qmd
+    - modeles.qmd
+    - import.qmd
+    - export.qmd
+---
+
+# Prise en main
+
+:::{#main}
+:::
