@@ -1,0 +1,11 @@
+# Extensions pour Tropy
+
+| Nom (et lien) | Description |
+| --- | --- |
+| [tropy-plugin-csl](https://github.com/tropy/tropy-plugin-csl) | Tropy plugin to export *your* items to Zotero as CSL/JSON |
+| [tropy-plugin-omeka](https://github.com/tropy/tropy-plugin-omeka) | This plugin  can export selected items into an [Omeka S](https://omeka.org/s/) instance. |
+| [tropy-plugin-archive](https://github.com/tropy/tropy-plugin-archive) | Tropy plugin for exporting items into a single zip archive. This includes all the metadata, as well as the photo files. |
+| [tropy-plugin-csv](https://github.com/tropy/tropy-plugin-csv) | Tropy plugin to import items from a CSV file, and export your items to CSV. |
+| [tropy-plugin-iiif](https://github.com/tropy/tropy-plugin-iiif) | Download a IIIF manifest and select _File > Import > tropy-plugin-iiif_ to start the import. The plugin tries to map the manifest’s metadata to standard metadata properties. |
+
+: Table des extensions {.striped tbl-colwidths="[30,70]"}

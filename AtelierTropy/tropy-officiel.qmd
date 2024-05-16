@@ -1,0 +1,8 @@
+# Tropy, canaux officels
+
+- [Documentation](https://docs.tropy.org/)
+- [Support](https://forums.tropy.org/) (forum)
+- [Vimeo](https://vimeo.com/user73164761)
+- [Youtube](https://www.youtube.com/watch?v=jWjP90EWHkQ&feature=youtu.be)
+- [Twitter](https://twitter.com/tropy)
+- [GitHub](https://github.com/tropy) (code source, templates…)

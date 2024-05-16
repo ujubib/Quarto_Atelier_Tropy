@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Mélanie Le Couédic">
-<meta name="author" content="Julien Rabaud">
 
-<title>Atelier Tropy</title>
+<title>Atelier Tropy - Ressources sur Tropy</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -32,7 +30,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./ressources-tropy.html" rel="next">
+<link href="./tropy-officiel.html" rel="next">
+<link href="./index.html" rel="prev">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -42,9 +43,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -72,8 +70,66 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-ressources .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-ressources'] = new List('listing-ressources', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -87,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Accueil</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./ressources-tropy.html">Ressources sur Tropy</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -134,19 +190,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Accueil</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./ressources-tropy.html" class="sidebar-item-text sidebar-link">
+            <a href="./ressources-tropy.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Ressources sur Tropy</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Basculer la section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tropy-officiel.html" class="sidebar-item-text sidebar-link">
@@ -185,41 +241,21 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table des matières</h2>
-   
-  <ul>
-  <li><a href="#accueil" id="toc-accueil" class="nav-link active" data-scroll-target="#accueil">Accueil</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/ujubib/Quarto_Atelier_Tropy/blob/main//AtelierTropy/index.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/Quarto_Atelier_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Atelier Tropy</h1>
-<p class="subtitle lead">dans le cadre des jeudis d’ITEM</p>
+<h1 class="title">Ressources sur Tropy</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Auteur·rice·s</div>
-    <div class="quarto-title-meta-contents">
-             <p>Mélanie Le Couédic </p>
-             <p>Julien Rabaud </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Date de publication</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">16 mai 2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -229,83 +265,66 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<style>
-    h1:nth-of-type(2){display:none}
-</style>
-<section id="accueil" class="level1 unnumbered">
-<h1 class="unnumbered">Accueil</h1>
-<div>
-
+<div id="listing-ressources" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-ressources-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-ressources'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Trier par</option>
+       <option value="index" data-direction="asc">Ordre par défaut</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Titre
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/tropy_items-gallerie.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="accueil" title="Tropy - Vue items en gallerie"><img src="img/tropy_items-gallerie.png" class="img-fluid figure-img" alt="Tropy - Vue items en gallerie"></a></p>
-<figcaption>Tropy - Vue items en gallerie</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/tropy_items-liste.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="accueil" title="Tropy - Vue items en liste"><img src="img/tropy_items-liste.png" class="img-fluid figure-img" alt="Tropy - Vue items en liste"></a></p>
-<figcaption>Tropy - Vue items en liste</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/tropy_vue-photo.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="accueil" title="Tropy - Photo et sélections"><img src="img/tropy_vue-photo.png" title="capture d'écran - affichage d'une photo et de ses sélections" class="img-fluid figure-img" alt="Tropy - Photo et sélections"></a></p>
-<figcaption>Tropy - Photo et sélections</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<p><a href="https://tropy.org"><strong>Tropy</strong></a> est un logiciel de gestion d’images pour la Recherche</p>
-<ul>
-<li>scans de documents anciens</li>
-<li>photographies d’archives</li>
-<li>photographies de terrain</li>
-<li>…</li>
-</ul>
-<p>Fait par des chercheurs pour des chercheurs par <a href="https://digitalscholar.org/">Digital Scholar</a> (comme <a href="https://www.zotero.org/">Zotero</a> et <a href="https://omeka.org/">Omeka</a>)</p>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/jeudi-ditem-1-1-1038x576-1.jpg" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="quarto-lightbox-gallery-4" title="Les jeudis d’ITEM"><img src="img/jeudi-ditem-1-1-1038x576-1.jpg" title="bandeau les jeudis d'ITEM" class="img-fluid figure-img" alt="Les jeudis d’ITEM"></a></p>
-<figcaption><a href="https://item.univ-pau.fr/fr/activites-scientifiques/jeudis-d-item.html">Les jeudis d’ITEM</a></figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="img/tropy-app-icon-1024x1024.png" class="lightbox" data-glightbox="description: .lightbox-desc-5" data-gallery="quarto-lightbox-gallery-5" title="Tropy"><img src="img/tropy-app-icon-1024x1024.png" title="logo Tropy" class="img-fluid figure-img" width="185" alt="Tropy"></a></p>
-<figcaption><a href="https://tropy.org">Tropy</a></figcaption>
-</figure>
-</div>
-</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titre</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-file-modified-sort="1715842709542" data-listing-reading-time-sort="1" data-listing-word-count-sort="11" data-listing-title-sort="Tropy, canaux officels" data-listing-filename-sort="tropy-officiel.qmd">
+<td>
+<a href="./tropy-officiel.html" class="title listing-title">Tropy, canaux officels</a>
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1715843578411" data-listing-reading-time-sort="1" data-listing-word-count-sort="114" data-listing-title-sort="Extensions pour Tropy" data-listing-filename-sort="tropy-extensions.qmd">
+<td>
+<a href="./tropy-extensions.html" class="title listing-title">Extensions pour Tropy</a>
+</td>
+</tr>
+<tr data-index="2" data-listing-file-modified-sort="1715844026198" data-listing-reading-time-sort="1" data-listing-word-count-sort="100" data-listing-title-sort="Tutoriels sur Tropy" data-listing-filename-sort="tropy-tutos.qmd">
+<td>
+<a href="./tropy-tutos.html" class="title listing-title">Tutoriels sur Tropy</a>
+</td>
+</tr>
+<tr data-index="3" data-listing-file-modified-sort="1715843948940" data-listing-reading-time-sort="2" data-listing-word-count-sort="228" data-listing-title-sort="Vidéos sur Tropy" data-listing-filename-sort="tropy-videos.qmd">
+<td>
+<a href="./tropy-videos.html" class="title listing-title">Vidéos sur Tropy</a>
+</td>
+</tr>
+<tr data-index="4" data-listing-file-modified-sort="1715844002516" data-listing-reading-time-sort="1" data-listing-word-count-sort="62" data-listing-title-sort="Billets de blog" data-listing-filename-sort="tropy-blogs.qmd">
+<td>
+<a href="./tropy-blogs.html" class="title listing-title">Billets de blog</a>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+Aucun article correspondant
 </div>
 </div>
 
 
-<div class="hidden" aria-hidden="true">
-<span class="glightbox-desc lightbox-desc-1">Tropy - Vue items en gallerie</span>
-<span class="glightbox-desc lightbox-desc-2">Tropy - Vue items en liste</span>
-<span class="glightbox-desc lightbox-desc-3">Tropy - Photo et sélections</span>
-<span class="glightbox-desc lightbox-desc-4"><a href="https://item.univ-pau.fr/fr/activites-scientifiques/jeudis-d-item.html">Les jeudis d’ITEM</a></span>
-<span class="glightbox-desc lightbox-desc-5"><a href="https://tropy.org">Tropy</a></span>
-</div>
-</section>
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -717,42 +736,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link  aria-label=" accueil"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Accueil</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./ressources-tropy.html" class="pagination-link" aria-label="Ressources sur Tropy">
-        <span class="nav-page-text">Ressources sur Tropy</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./tropy-officiel.html" class="pagination-link" aria-label="<span class='chapter-number'>1</span>&nbsp; <span class='chapter-title'>Tropy, canaux officels</span>">
+        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Tropy, canaux officels</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ujubib/Quarto_Atelier_Tropy/blob/main//AtelierTropy/index.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/Quarto_Atelier_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","loop":false,"closeEffect":"zoom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
-
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
-
-};
-          </script>
 
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/ujubib/Quarto_Atelier_Tropy/blob/main//AtelierTropy/ressources-tropy.qmd" class="toc-action"><i class="bi bi-github"></i>Voir la source</a></li><li><a href="https://github.com/ujubib/Quarto_Atelier_Tropy/issues/new" class="toc-action"><i class="bi empty"></i>Faire part d'un problème</a></li></ul></div></div></div></footer><script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

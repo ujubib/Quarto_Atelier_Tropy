@@ -13,11 +13,17 @@ book:
   repo-subdir: /AtelierTropy/
   repo-actions: [source, issue]
   downloads: [pdf, epub]
+  sidebar:
+    collapse-level: 1
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - part: ressources-tropy.qmd
+      chapters:
+      - tropy-officiel.qmd
+      - tropy-extensions.qmd
+      - tropy-tutos.qmd
+      - tropy-videos.qmd
+      - tropy-blogs.qmd
 
 bibliography: references.bib
 
@@ -25,10 +31,17 @@ format:
   html:
     theme: cosmo
     lang: fr
+    css: styles.css
+    lightbox: true
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
   pdf:
+    lang: fr
     documentclass: scrreprt
   epub: 
     epub-cover-image: cover.png
+    lang: fr
 
 
 
