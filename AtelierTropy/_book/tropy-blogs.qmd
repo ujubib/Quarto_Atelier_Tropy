@@ -1,7 +1,0 @@
-# Billets sur Tropy
-
-- [Gérer ses photos d’archives avec Tropy](http://www.boiteaoutils.info/2017/10/gerer-ses-photos-darchives-avec-tropy/) - Franziska Heimburger - *La boîte à outils des historien·ne·s* (2017)
-- [Tropy, un gestionnaire de photos d'archives pour les chercheurs](https://www.macg.co/logiciels/2017/10/tropy-un-gestionnaire-de-photos-darchives-pour-les-chercheurs-100197) - Florian Innocente, *MacGeneration* (2017)
-- [Six months of using Tropy](https://www.e-mourlon-druol.com/six-months-of-using-tropy/) - Emmanuel Mourlon-Druol (2019)
-- [Tropy : un logiciel pour organiser des corpus iconographiques](https://bulac.hypotheses.org/33406) - BULAC (2021)
-- [New Project Types in Tropy 1.13](https://tropy.org/blog/new-project-types-in-tropy-1-13) - Tropy Blog (2023-03-31)

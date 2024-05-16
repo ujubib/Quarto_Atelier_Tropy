@@ -10,36 +10,6 @@
     ]
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "2  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n\n\n\nKnuth, Donald E. 1984. « Literate Programming ». Comput. J. 27 (2): 97‑111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
-    ]
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "3  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.",
-    "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
-    ]
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
-    "crumbs": [
-      "References"
-    ]
-  },
-  {
     "objectID": "ressources-tropy.html",
     "href": "ressources-tropy.html",
     "title": "Ressources sur Tropy",
@@ -47,17 +17,6 @@
     "text": "Trier par\n       Ordre par défaut\n         \n          Titre\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitre\n\n\n\n\n\n\nTropy, canaux officels\n\n\n\n\nExtensions pour Tropy\n\n\n\n\nTutoriels sur Tropy\n\n\n\n\nVidéos sur Tropy\n\n\n\n\nBillets de blog\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
       "Ressources sur Tropy"
-    ]
-  },
-  {
-    "objectID": "tropy-extensions.html",
-    "href": "tropy-extensions.html",
-    "title": "2  Extensions pour Tropy",
-    "section": "",
-    "text": "Table des extensions\n\n\n\n\n\n\nNom (et lien)\nDescription\n\n\n\n\ntropy-plugin-csl\nTropy plugin to export your items to Zotero as CSL/JSON\n\n\ntropy-plugin-omeka\nThis plugin can export selected items into an Omeka S instance.\n\n\ntropy-plugin-archive\nTropy plugin for exporting items into a single zip archive. This includes all the metadata, as well as the photo files.\n\n\ntropy-plugin-csv\nTropy plugin to import items from a CSV file, and export your items to CSV.\n\n\ntropy-plugin-iiif\nDownload a IIIF manifest and select File &gt; Import &gt; tropy-plugin-iiif to start the import. The plugin tries to map the manifest’s metadata to standard metadata properties.",
-    "crumbs": [
-      "Ressources sur Tropy",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Extensions pour Tropy</span>"
     ]
   },
   {
@@ -72,14 +31,25 @@
     ]
   },
   {
+    "objectID": "tropy-extensions.html",
+    "href": "tropy-extensions.html",
+    "title": "2  Extensions pour Tropy",
+    "section": "",
+    "text": "Table des extensions\n\n\n\n\n\n\nNom (et lien)\nDescription\n\n\n\n\ntropy-plugin-csl\nTropy plugin to export your items to Zotero as CSL/JSON\n\n\ntropy-plugin-omeka\nThis plugin can export selected items into an Omeka S instance.\n\n\ntropy-plugin-archive\nTropy plugin for exporting items into a single zip archive. This includes all the metadata, as well as the photo files.\n\n\ntropy-plugin-csv\nTropy plugin to import items from a CSV file, and export your items to CSV.\n\n\ntropy-plugin-iiif\nDownload a IIIF manifest and select File &gt; Import &gt; tropy-plugin-iiif to start the import. The plugin tries to map the manifest’s metadata to standard metadata properties.",
+    "crumbs": [
+      "Ressources sur Tropy",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Extensions pour Tropy</span>"
+    ]
+  },
+  {
     "objectID": "tropy-tutos.html",
     "href": "tropy-tutos.html",
-    "title": "3  Tutoriels Tropy",
+    "title": "3  Tutoriels sur Tropy",
     "section": "",
     "text": "Laillier Benjamin. Tutoriel Tropy (fr)\n\n\nVoir le support (pdf)\n\n\n\n\n\nStretching numérique 2023 : Gérer ses photos d’archives avec Tropy\nYork Library. Handout - Tropy and Archival Fieldwork (2 p.)\n\n\nVoir le support (pdf)\n\n\n\n\n\nGeorge Mason University Library (where the RRCHNM is.)\nSchlesinger Library on the History of Women in America (Radcliffe Institute for Advanced Study) - Harvard University\nBULAC - Support de formation - Tropy 2022-04\n\n\nVoir le support (pdf)\n\n\n\n\n\nTropy | gestion d’images - Université de Lille - Pole-Num-Scrums-Skills.\nRennes 2 - Gérer ses photos de recherche avec Tropy",
     "crumbs": [
       "Ressources sur Tropy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tutoriels Tropy</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tutoriels sur Tropy</span>"
     ]
   },
   {
@@ -91,6 +61,17 @@
     "crumbs": [
       "Ressources sur Tropy",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Vidéos sur Tropy</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-blogs.html",
+    "href": "tropy-blogs.html",
+    "title": "5  Billets de blog",
+    "section": "",
+    "text": "Gérer ses photos d’archives avec Tropy - Franziska Heimburger - La boîte à outils des historien·ne·s (2017)\nTropy, un gestionnaire de photos d’archives pour les chercheurs - Florian Innocente, MacGeneration (2017)\nSix months of using Tropy - Emmanuel Mourlon-Druol (2019)\nTropy : un logiciel pour organiser des corpus iconographiques - BULAC (2021)\nNew Project Types in Tropy 1.13 - Tropy Blog (2023-03-31)",
+    "crumbs": [
+      "Ressources sur Tropy",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Billets de blog</span>"
     ]
   }
 ]
