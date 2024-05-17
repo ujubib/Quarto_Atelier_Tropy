@@ -1,39 +1,40 @@
-# Autour du standard IIIF {.unnumbered}
+# Autour des standards IIIF {.unnumbered}
 
+::: {.callout-note appearance="minimal"}
+**IIIF** (**I***nternational* **I***mage* **I***nteroperability* **F***ramework*™) est un ensemble de standards qui définissent un cadre d’interopérabilité pour la diffusion des images numériques sur le Web.
+:::
 
- **IIIF** (**I***nternational* **I***mage* **I***nteroperability* **F***ramework*™) est un ensemble de standards qui définissent un cadre d’interopérabilité pour la diffusion des images numériques sur le Web. 
-  
-  **IIIF** permet la manipulation homogène d'images indépendamment de leurs localisations physiques et des établissements qui les hébergent. (utilisé notamment sur Europeana[^europ] , Gallica[^gallica], Nakala, de nombreux serveurs Omeka…)
+**IIIF** permet la manipulation homogène d'images indépendamment de leurs localisations physiques et des établissements qui les hébergent. (utilisé notamment sur Europeana[^iiif-1] , Gallica[^iiif-2], Nakala, de nombreux serveurs Omeka…)
 
-- Une *excellente* [documentation](https://iiif.biblissima.fr) chez Biblissima.
+[^iiif-1]: [Europeana IIIF APIs](https://pro.europeana.eu/page/iiif)
 
-- Une très large collection de ressources sur le GitHub du consortium : [Awesome International Image Interoperability Framework (IIIF)](https://github.com/IIIF/awesome-iiif) : 
+[^iiif-2]: [API IIIF de récupération des images de Gallica](https://api.bnf.fr/fr/api-iiif-de-recuperation-des-images-de-gallica)
 
-[^europ]: [Europeana IIIF APIs](https://pro.europeana.eu/page/iiif)
+-   Une *excellente* [documentation](https://iiif.biblissima.fr) chez Biblissima.
 
-[^gallica]: [API IIIF de récupération des images de Gallica](https://api.bnf.fr/fr/api-iiif-de-recuperation-des-images-de-gallica)
+-   Une très large collection de ressources sur le GitHub du consortium : [Awesome International Image Interoperability Framework (IIIF)](https://github.com/IIIF/awesome-iiif)
+
+-   La visionneuse [Mirador](https://projectmirador.org)
 
 ## Importer dans Tropy des documents Gallica via le module IIIF
 
-- API IIIF de récupération des images de Gallica :
+-   API IIIF de récupération des images de Gallica :
 
-  - Base URL : `gallica.bnf.fr/`
-  
-  - Manifest : `iiif/{ark}/manifest.json`
-  
-  - Modèle : `gallica.bnf.fr/iiif/ark:/XXXXX/manifest.json`
+    -   Base URL : `gallica.bnf.fr/`
 
+    -   Manifest : `iiif/{ark}/manifest.json`
 
-  - Exemples : 
-    - `gallica.bnf.fr/iiif/ark:/12148/bd6t538312611/manifest.json`
-    - `gallica.bnf.fr/iiif/ark:/12148/btv1b8451475v/manifest.json`
-    
+    -   Modèle : `gallica.bnf.fr/iiif/ark:/XXXXX/manifest.json`
 
+    -   Exemples :
 
-## Bonus 
+        -   `gallica.bnf.fr/iiif/ark:/12148/bd6t538312611/manifest.json`
+        -   `gallica.bnf.fr/iiif/ark:/12148/btv1b8451475v/manifest.json`
 
-- [Publier une image avec ses annotations : utilisation de Tesselle en histoire de l’art](https://numrha.hypotheses.org/1019) - Antoine Courtin (_Numérique et recherche en histoire de l'art_, 2020).
-    - [Tesselle](https://medialab.github.io/tesselle/#/) - *médialab SciencesPo*
-- Avec des sources *iiif* : [Adno](https://adno.app/fr/)
-  - [Exemples](https://adno.app/fr/example/)
-  -  [Documentation](https://adno.app/fr/docs/prologue/quick-start/)
+## Bonus
+
+-   [Publier une image avec ses annotations : utilisation de Tesselle en histoire de l’art](https://numrha.hypotheses.org/1019) - Antoine Courtin (*Numérique et recherche en histoire de l'art*, 2020).
+    -   [Tesselle](https://medialab.github.io/tesselle/#/) - *médialab SciencesPo*
+-   Avec des sources *iiif* : [Adno](https://adno.app/fr/)
+    -   [Exemples](https://adno.app/fr/example/)
+    -   [Documentation](https://adno.app/fr/docs/prologue/quick-start/)

@@ -1,5 +1,7 @@
 project:
   type: book
+  resources: 
+    - ".ttp"
 
 book:
   title: "Atelier Tropy"
@@ -17,21 +19,21 @@ book:
     collapse-level: 1
   chapters:
     - index.qmd
-    - part: ressources-tropy.qmd
+    - part: Ressources-tropy.qmd
       chapters:
       - tropy-officiel.qmd
       - tropy-extensions.qmd
       - tropy-tutos.qmd
       - tropy-videos.qmd
       - tropy-blogs.qmd
-    - part: prise-en-main.qmd
+    - part: Prise-en-main.qmd
       chapters: 
-        - projet.qmd
-        - modeles.qmd
-        - import.qmd
-        - export.qmd
-    - fair.qmd
-    - iiif.qmd
+        - tropy-projet.qmd
+        - tropy-modeles.qmd
+        - tropy-import.qmd
+        - tropy-export.qmd
+    - FAIR.qmd
+    - IIIF.qmd
 
 bibliography: references.bib
 
@@ -44,12 +46,16 @@ format:
     smooth-scroll: true
     link-external-icon: true
     link-external-newwindow: true
+    reference-location: margin
   pdf:
     lang: fr
     documentclass: scrreprt
+    reference-location: margin
+    links-as-notes: true
   epub: 
     epub-cover-image: cover.png
     lang: fr
+    reference-location: margin
 
 
 

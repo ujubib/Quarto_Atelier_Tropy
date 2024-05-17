@@ -1,0 +1,15 @@
+# Exporter (projet, photos, données)
+
+## Préférences > Export
+
+## Menu Exporter
+
+- JSON-LD : LD pour *Linked Data*
+- PDF
+- Plugins
+
+## Plugins
+
+- Archive : Photos et métadonnées dans un `.zip`
+- CSV
+- Omeka S

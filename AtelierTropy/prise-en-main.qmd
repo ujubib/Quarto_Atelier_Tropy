@@ -5,10 +5,10 @@ listing:
   fields: [title]
   type: table
   contents:
-    - projet.qmd
-    - modeles.qmd
-    - import.qmd
-    - export.qmd
+    - tropy-projet.qmd
+    - tropy-modeles.qmd
+    - tropy-import.qmd
+    - tropy-export.qmd
 ---
 
 # Prise en main

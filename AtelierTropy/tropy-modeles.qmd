@@ -1,0 +1,11 @@
+# Les modèles de documents
+
+## Dans la documentation officielle
+
+- [What is metadata and how do I use it?](https://docs.tropy.org/before-you-begin/metadata)
+- [Getting started with templates](https://docs.tropy.org/in-the-template-editor/using-templates)
+
+### Exemple du Projet Blot
+
+- Template `Blot photos v2` : <button>[Télécharger](BlotPhotosV2.ttp){download="BlotPhotosV2.ttp" target="_blank"}</button>
+  - [Description dans le wiki du projet](https://git.univ-pau.fr/gaelannuzelt/projet-blot/-/wikis/Templates-Tropy)

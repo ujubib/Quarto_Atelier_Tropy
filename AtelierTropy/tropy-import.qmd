@@ -1,0 +1,40 @@
+# Importer des photos
+
+Formats supportés : 
+
+- JPG/JPEG
+- PNG
+- SVG
+- TIFF
+- GIF
+- PDF
+- JP2000
+- WEBP
+- HEIC
+- AVIF
+
+## Menu: Fichier > Importer > Photos | Dossier
+
+- Penser à définir un profil d'import par défaut avant.
+
+## Glisser-déposer
+
+- Même recommandation 
+
+## Surveillance d'un dossier 
+
+- Menu: Edition > Préférences... | onglet *Projet* -> Watch folder
+
+## Plugins
+
+### CSV
+
+1. Installer le [plugin CSV](https://github.com/tropy/tropy-plugin-csv)
+2. 1. Menu: Edition > Préférences... | onglet *Plugins* -> Définir un profil d'import CSV
+
+### IIIF
+
+1. Installer le [plugin IIIF](https://github.com/tropy/tropy-plugin-iiif)
+1. Menu: Edition > Préférences... | onglet *Plugins* -> Définir un profil d'import (template) IIIF dans les **paramètres** du plugin.
+1. Télécharger un *manifeste IIIF* (souvent un fichier `manifest.json`) sur son ordinateur depuis un catalogue IIIF (Gallica, Biblissima, Europeana..)
+1. Dans Tropy, Menu: Fichier > Importer > Profil IIIF : chemin du fichier `manifest.json`

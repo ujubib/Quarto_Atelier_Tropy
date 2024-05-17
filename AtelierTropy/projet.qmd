@@ -1,8 +1,0 @@
-# Créer un projet
-
-![Menu: Fichier > Nouveau > Projet (<kbd>Ctrl</kbd>+<kbd>Maj</kbd>+<kbd>P</kbd>)](img/tropy-projet.png)
-
-- Lui donner un nom
-- Choisir le type (voir [New Project Types in Tropy 1.13](https://tropy.org/blog/new-project-types-in-tropy-1-13))
-  - *Standard* : Copie les photos dans le dossier du projet à l'import
-  - *Advanced* : Lien vers les photos sur votre disque (/!\\)

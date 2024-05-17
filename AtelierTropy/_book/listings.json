@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/ressources-tropy.html",
+    "listing": "/Ressources-tropy.html",
     "items": [
       "/tropy-officiel.html",
       "/tropy-extensions.html",
@@ -10,12 +10,12 @@
     ]
   },
   {
-    "listing": "/prise-en-main.html",
+    "listing": "/Prise-en-main.html",
     "items": [
-      "/projet.html",
-      "/modeles.html",
-      "/import.html",
-      "/export.html"
+      "/tropy-projet.html",
+      "/tropy-modeles.html",
+      "/tropy-import.html",
+      "/tropy-export.html"
     ]
   }
 ]

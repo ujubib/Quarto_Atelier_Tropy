@@ -1,5 +1,7 @@
 # Extensions pour Tropy
 
+![Menu: Préférences... - Plugins](img/tropy-plugins.png "Panneau des plugins dans les préférences de Tropy"){width="70%"}
+
 | Nom (et lien) | Description |
 | --- | --- |
 | [tropy-plugin-csl](https://github.com/tropy/tropy-plugin-csl) | Tropy plugin to export *your* items to Zotero as CSL/JSON |
