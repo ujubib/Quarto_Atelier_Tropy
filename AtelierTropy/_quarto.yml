@@ -55,12 +55,10 @@ format:
   pdf:
     lang: fr
     documentclass: scrreprt
-    reference-location: margin
     links-as-notes: true
   epub: 
     epub-cover-image: cover.png
     lang: fr
-    reference-location: margin
 
 
 

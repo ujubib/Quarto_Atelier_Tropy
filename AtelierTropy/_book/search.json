@@ -22,45 +22,45 @@
   {
     "objectID": "tropy-officiel.html",
     "href": "tropy-officiel.html",
-    "title": "1  Tropy, canaux officels",
+    "title": "1  Canaux officels",
     "section": "",
     "text": "Documentation\nSupport (forum)\nVimeo\nYoutube\nTwitter\nGitHub (code source, templates…)",
     "crumbs": [
       "Ressources sur Tropy",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Tropy, canaux officels</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Canaux officels</span>"
     ]
   },
   {
     "objectID": "tropy-extensions.html",
     "href": "tropy-extensions.html",
-    "title": "2  Extensions pour Tropy",
+    "title": "2  Extensions",
     "section": "",
     "text": "Menu: Préférences… - Plugins\n\n\n\nTable des extensions\n\n\n\n\n\n\nNom (et lien)\nDescription\n\n\n\n\ntropy-plugin-csl\nTropy plugin to export your items to Zotero as CSL/JSON\n\n\ntropy-plugin-omeka\nThis plugin can export selected items into an Omeka S instance.\n\n\ntropy-plugin-archive\nTropy plugin for exporting items into a single zip archive. This includes all the metadata, as well as the photo files.\n\n\ntropy-plugin-csv\nTropy plugin to import items from a CSV file, and export your items to CSV.\n\n\ntropy-plugin-iiif\nDownload a IIIF manifest and select File &gt; Import &gt; tropy-plugin-iiif to start the import. The plugin tries to map the manifest’s metadata to standard metadata properties.\n\n\n\n\n\n\nMenu: Préférences… - Plugins",
     "crumbs": [
       "Ressources sur Tropy",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Extensions pour Tropy</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Extensions</span>"
     ]
   },
   {
     "objectID": "tropy-tutos.html",
     "href": "tropy-tutos.html",
-    "title": "3  Tutoriels sur Tropy",
+    "title": "3  Tutoriels",
     "section": "",
     "text": "Table des Tutoriels Tropy\n\n\n\n\n\n\nAuteur\nlien\n\n\n\n\nBenjamin Lailler\nTutoriel Tropy\n\n\nStretching numérique 2023\nGérer ses photos d’archives avec Tropy\n\n\nYork Library\nHandout - Tropy and Archival Fieldwork (2 p.)\n\n\nGeorge Mason University Library\nInfoguide Tropy\n\n\nSchlesinger Library on the History of Women in America - Harvard University\nTropy Guide\n\n\nBULAC 2022-04\nSupport de formation - Tropy\n\n\nUniversité de Lille - Pole-Num-Scrums-Skills\nTropy | gestion d’images\n\n\nRennes 2\nGérer ses photos de recherche avec Tropy",
     "crumbs": [
       "Ressources sur Tropy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tutoriels sur Tropy</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tutoriels</span>"
     ]
   },
   {
     "objectID": "tropy-videos.html",
     "href": "tropy-videos.html",
-    "title": "4  Vidéos sur Tropy",
+    "title": "4  Vidéos",
     "section": "",
     "text": "Le 16 juin 2020, L’équipe de Tropy (Abby Mullen) a tenu un webinaire de type Tropy 101 [Youtube - 1h05]\n\nTropy chanel : Metadata Templates in Tropy [Youtube - 10 mn]\n\n\n\n\n\n\nProjet EVEille : Séance d’initiation à Tropy, animée par Benoît Roux, juin 2021 [e-diffusion UHA - 1h28]\n\nGeneatech : Utiliser Tropy pour la gestion de ses photos d’archive [Youtube - 17 mn]",
     "crumbs": [
       "Ressources sur Tropy",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Vidéos sur Tropy</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Vidéos</span>"
     ]
   },
   {
@@ -79,7 +79,7 @@
     "href": "Prise-en-main.html",
     "title": "Prise en main",
     "section": "",
-    "text": "Créer un projet\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes modèles de documents\n\n\n\n\n\n\n\n\n\n\n\n\n\nImporter des photos\n\n\n\n\n\n\n\n\n\n\n\n\n\nExporter (projet, photos, données)\n\n\n\n\n\n\n\nAucun article correspondant",
+    "text": "Créer un projet\n\n\n\n\n\n\n\n\n\n\n\n\n\nModèles de documents\n\n\n\n\n\n\n\n\n\n\n\n\n\nImporter des photos\n\n\n\n\n\n\n\n\n\n\n\n\n\nExporter (projet, photos, données)\n\n\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
       "Prise en main"
     ]
@@ -98,23 +98,23 @@
   {
     "objectID": "tropy-modeles.html",
     "href": "tropy-modeles.html",
-    "title": "7  Les modèles de documents",
+    "title": "7  Modèles de documents",
     "section": "",
     "text": "7.1 Dans la documentation officielle",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Les modèles de documents</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Modèles de documents</span>"
     ]
   },
   {
     "objectID": "tropy-modeles.html#dans-la-documentation-officielle",
     "href": "tropy-modeles.html#dans-la-documentation-officielle",
-    "title": "7  Les modèles de documents",
+    "title": "7  Modèles de documents",
     "section": "",
     "text": "What is metadata and how do I use it?\nGetting started with templates\n\n\n7.1.1 Exemple du Projet Blot\n\nTemplate Blot photos v2 : Télécharger\n\nDescription dans le wiki du projet",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Les modèles de documents</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Modèles de documents</span>"
     ]
   },
   {
