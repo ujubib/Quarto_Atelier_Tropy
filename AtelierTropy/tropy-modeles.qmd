@@ -1,4 +1,8 @@
-# Les modèles de documents
+---
+image: img/diagram-3.svg
+---
+
+# Modèles de documents
 
 ## Dans la documentation officielle
 

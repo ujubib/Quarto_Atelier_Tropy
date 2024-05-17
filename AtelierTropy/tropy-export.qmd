@@ -1,3 +1,7 @@
+---
+image: img/send.png
+---
+
 # Exporter (projet, photos, données)
 
 ## Préférences > Export

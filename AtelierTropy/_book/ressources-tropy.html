@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./tropy-officiel.html" rel="next">
-<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -80,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -206,25 +204,25 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tropy-officiel.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Tropy, canaux officels</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Canaux officels</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tropy-extensions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Extensions pour Tropy</span></span></a>
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Extensions</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tropy-tutos.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tutoriels sur Tropy</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Tutoriels</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tropy-videos.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Vidéos sur Tropy</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Vidéos</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -253,7 +251,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./tropy-modeles.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Les modèles de documents</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Modèles de documents</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -312,59 +310,79 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-ressources" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-ressources-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-ressources'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Trier par</option>
-       <option value="index" data-direction="asc">Ordre par défaut</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Titre
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div id="listing-ressources" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1715943021089" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
+<a href="./tropy-officiel.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./img/tropy-app-icon-1024x1024.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Canaux officels
+</h5>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titre</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1715842709542" data-listing-reading-time-sort="1" data-listing-word-count-sort="11" data-listing-title-sort="Tropy, canaux officels" data-listing-filename-sort="tropy-officiel.qmd">
-<td>
-<a href="./tropy-officiel.html" class="title listing-title">Tropy, canaux officels</a>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1715931693317" data-listing-reading-time-sort="1" data-listing-word-count-sort="125" data-listing-title-sort="Extensions pour Tropy" data-listing-filename-sort="tropy-extensions.qmd">
-<td>
-<a href="./tropy-extensions.html" class="title listing-title">Extensions pour Tropy</a>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1715930403584" data-listing-reading-time-sort="1" data-listing-word-count-sort="79" data-listing-title-sort="Tutoriels sur Tropy" data-listing-filename-sort="tropy-tutos.qmd">
-<td>
-<a href="./tropy-tutos.html" class="title listing-title">Tutoriels sur Tropy</a>
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1715932375877" data-listing-reading-time-sort="1" data-listing-word-count-sort="143" data-listing-title-sort="Vidéos sur Tropy" data-listing-filename-sort="tropy-videos.qmd">
-<td>
-<a href="./tropy-videos.html" class="title listing-title">Vidéos sur Tropy</a>
-</td>
-</tr>
-<tr data-index="4" data-listing-file-modified-sort="1715844002516" data-listing-reading-time-sort="1" data-listing-word-count-sort="62" data-listing-title-sort="Billets de blog" data-listing-filename-sort="tropy-blogs.qmd">
-<td>
-<a href="./tropy-blogs.html" class="title listing-title">Billets de blog</a>
-</td>
-</tr>
-</tbody>
-</table>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1715943059012" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
+<a href="./tropy-extensions.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./img/tropy-plugins.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Extensions
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1715943067442" data-listing-reading-time-sort="1" data-listing-word-count-sort="99">
+<a href="./tropy-tutos.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./img/tuto.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Tutoriels
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1715943092315" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
+<a href="./tropy-videos.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./img/youtube.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Vidéos
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-listing-file-modified-sort="1715939071148" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
+<a href="./tropy-blogs.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./img/notebook.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Billets de blog
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 Aucun article correspondant
 </div>
@@ -781,18 +799,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link  aria-label=" accueil"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Accueil</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./tropy-officiel.html" class="pagination-link" aria-label="<span class='chapter-number'>1</span>&nbsp; <span class='chapter-title'>Tropy, canaux officels</span>">
-        <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Tropy, canaux officels</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 

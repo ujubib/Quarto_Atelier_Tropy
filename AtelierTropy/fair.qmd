@@ -2,7 +2,7 @@
 
 -   Inspirés par le *5-Star Open Data* proné par Tim-Berners Lee, mis en forme par Michael Hausenblas sur ce site : <http://5stardata.info/fr/> \[22 janvier 2012\].
 
-::: {.callout-important collapse="true"}
+::: {.callout-tip collapse="true"}
 ## Les étapes *5-Star OpenData*
 
 | étoiles | étape                                                                                                                   |

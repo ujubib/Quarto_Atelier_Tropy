@@ -1,3 +1,7 @@
+---
+image: img/down.png
+---
+
 # Importer des photos
 
 Formats supportés : 

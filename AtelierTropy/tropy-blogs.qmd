@@ -1,3 +1,7 @@
+---
+image: img/notebook.png
+---
+
 # Billets de blog
 
 - [Gérer ses photos d’archives avec Tropy](http://www.boiteaoutils.info/2017/10/gerer-ses-photos-darchives-avec-tropy/) - Franziska Heimburger - *La boîte à outils des historien·ne·s* (2017)

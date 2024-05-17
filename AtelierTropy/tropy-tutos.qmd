@@ -1,10 +1,18 @@
-# Tutoriels sur Tropy
+---
+image: img/tuto.png
+---
 
-- Laillier Benjamin. [Tutoriel Tropy](https://zenodo.org/record/2583661) (fr)
-- Stretching numérique 2023 : [Gérer ses photos d'archives avec Tropy](https://zenodo.org/records/7762441)
-- York Library. [Handout - Tropy and Archival Fieldwork (2 p.)](https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/36607/Handout-Tropy%20and%20Archival%20Fieldwork.pdf?sequence=3&isAllowed=y)
-- [George Mason University Library](https://infoguides.gmu.edu/tropy/introduction) (where the *RRCHNM* is.)
-- [Schlesinger Library on the History of Women in America (*Radcliffe Institute for Advanced Study*) - Harvard University](https://guides.library.harvard.edu/c.php?g=833532&p=5990005)
-- BULAC - [Support de formation - Tropy](https://www.bulac.fr/document/support-de-formation-tropy-2022-04) 2022-04
-- [Tropy | gestion d'images](https://wikis.univ-lille.fr/proj-polnum/accueil/manuels/guide-d-utilisation-de-tropy) - Université de Lille - *Pole-Num-Scrums-Skills*.
-- Rennes 2 - [Gérer ses photos de recherche avec Tropy](https://tutos.bu.univ-rennes2.fr/c.php?g=702342)
+# Tutoriels
+
+| Auteur | lien |
+| --- | --- |
+| Benjamin Lailler | [Tutoriel Tropy](https://zenodo.org/record/2583661) |
+| Stretching numérique 2023 | [Gérer ses photos d'archives avec Tropy](https://zenodo.org/records/7762441) |
+| York Library | [Handout - Tropy and Archival Fieldwork (2 p.)](https://yorkspace.library.yorku.ca/xmlui/bitstream/handle/10315/36607/Handout-Tropy%20and%20Archival%20Fieldwork.pdf?sequence=3&isAllowed=y) |
+| George Mason University Library | [Infoguide Tropy](https://infoguides.gmu.edu/tropy/introduction) |
+| Schlesinger Library on the History of Women in America - Harvard University | [Tropy Guide](https://guides.library.harvard.edu/c.php?g=833532&p=5990005) |
+| BULAC 2022-04 | [Support de formation - Tropy](https://www.bulac.fr/document/support-de-formation-tropy-2022-04) |
+| Université de Lille - *Pole-Num-Scrums-Skills* | [Tropy \| gestion d'images](https://wikis.univ-lille.fr/proj-polnum/accueil/manuels/guide-d-utilisation-de-tropy) |
+| Rennes 2 | [Gérer ses photos de recherche avec Tropy](https://tutos.bu.univ-rennes2.fr/c.php?g=702342) |
+
+: Table des Tutoriels Tropy {.striped tbl-colwidths="[50,50]"}

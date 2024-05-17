@@ -2,8 +2,8 @@
 listing:
   id: ressources
   sort: "date"
-  fields: [title]
-  type: table
+  fields: [title, image]
+  type: grid
   contents:
     - tropy-officiel.qmd
     - tropy-extensions.qmd

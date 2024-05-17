@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Atelier Tropy",
     "section": "",
-    "text": "Accueil\n\n\n\n\n\n\n\n\n\nTropy - Vue items en gallerie\n\n\n\n\n\n\n\nTropy - Vue items en liste\n\n\n\n\n\n\n\nTropy - Photo et sélections\n\n\n\n\n\nTropy est un logiciel de gestion d’images pour la Recherche\n\nscans de documents anciens\nphotographies d’archives\nphotographies de terrain\n…\n\nFait par des chercheurs pour des chercheurs par Digital Scholar (comme Zotero et Omeka)\n\n\n\n\n\n\n\n\n\nLes jeudis d’ITEM\n\n\n\n\n\n\n\nTropy\n\n\n\n\n\n\n\n\nTropy - Vue items en gallerie\nTropy - Vue items en liste\nTropy - Photo et sélections\nLes jeudis d’ITEM\nTropy",
+    "text": "Accueil\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTropy - Vue items en gallerie\n\n\n\n\n\n\n\nTropy - Vue items en liste\n\n\n\n\n\n\n\nTropy - Photo et sélections\n\n\n\n\n\n\n\n\nTropy est un logiciel de gestion d’images pour la Recherche\n\nscans de documents anciens\nphotographies d’archives\nphotographies de terrain\n…\n\nFait par des chercheurs pour des chercheurs par Digital Scholar (comme Zotero et Omeka)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes jeudis d’ITEM\n\n\n\n\n\n\n\nTropy\n\n\n\n\n\n\n\n\n\n\n\nTropy - Vue items en gallerie\nTropy - Vue items en liste\nTropy - Photo et sélections\nLes jeudis d’ITEM\nTropy",
     "crumbs": [
       "Accueil"
     ]
@@ -14,7 +14,7 @@
     "href": "Ressources-tropy.html",
     "title": "Ressources sur Tropy",
     "section": "",
-    "text": "Trier par\n       Ordre par défaut\n         \n          Titre\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitre\n\n\n\n\n\n\nTropy, canaux officels\n\n\n\n\nExtensions pour Tropy\n\n\n\n\nTutoriels sur Tropy\n\n\n\n\nVidéos sur Tropy\n\n\n\n\nBillets de blog\n\n\n\n\n\nAucun article correspondant",
+    "text": "Canaux officels\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtensions\n\n\n\n\n\n\n\n\n\n\n\n\n\nTutoriels\n\n\n\n\n\n\n\n\n\n\n\n\n\nVidéos\n\n\n\n\n\n\n\n\n\n\n\n\n\nBillets de blog\n\n\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
       "Ressources sur Tropy"
     ]
@@ -46,7 +46,7 @@
     "href": "tropy-tutos.html",
     "title": "3  Tutoriels sur Tropy",
     "section": "",
-    "text": "Laillier Benjamin. Tutoriel Tropy (fr)\nStretching numérique 2023 : Gérer ses photos d’archives avec Tropy\nYork Library. Handout - Tropy and Archival Fieldwork (2 p.)\nGeorge Mason University Library (where the RRCHNM is.)\nSchlesinger Library on the History of Women in America (Radcliffe Institute for Advanced Study) - Harvard University\nBULAC - Support de formation - Tropy 2022-04\nTropy | gestion d’images - Université de Lille - Pole-Num-Scrums-Skills.\nRennes 2 - Gérer ses photos de recherche avec Tropy",
+    "text": "Table des Tutoriels Tropy\n\n\n\n\n\n\nAuteur\nlien\n\n\n\n\nBenjamin Lailler\nTutoriel Tropy\n\n\nStretching numérique 2023\nGérer ses photos d’archives avec Tropy\n\n\nYork Library\nHandout - Tropy and Archival Fieldwork (2 p.)\n\n\nGeorge Mason University Library\nInfoguide Tropy\n\n\nSchlesinger Library on the History of Women in America - Harvard University\nTropy Guide\n\n\nBULAC 2022-04\nSupport de formation - Tropy\n\n\nUniversité de Lille - Pole-Num-Scrums-Skills\nTropy | gestion d’images\n\n\nRennes 2\nGérer ses photos de recherche avec Tropy",
     "crumbs": [
       "Ressources sur Tropy",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tutoriels sur Tropy</span>"
@@ -57,7 +57,7 @@
     "href": "tropy-videos.html",
     "title": "4  Vidéos sur Tropy",
     "section": "",
-    "text": "Le 16 juin 2020, L’équipe de Tropy (Abby Mullen) a tenu un webinaire Zoom qu’on pourrait appeler Tropy 101 [Youtube - 1h05]\n\nTropy chanel : Metadata Templates in Tropy [Youtube - 10 mn]\n\n\n\n\nProjet EVEille : Séance d’initiation à Tropy, animée par Benoît Roux - 25 juin 2021 [e-diffusion UHA - 1h28]\n\nGeneatech : Utiliser Tropy pour la gestion de ses photos d’archive [Youtube - 17 mn]",
+    "text": "Le 16 juin 2020, L’équipe de Tropy (Abby Mullen) a tenu un webinaire de type Tropy 101 [Youtube - 1h05]\n\nTropy chanel : Metadata Templates in Tropy [Youtube - 10 mn]\n\n\n\n\n\n\nProjet EVEille : Séance d’initiation à Tropy, animée par Benoît Roux, juin 2021 [e-diffusion UHA - 1h28]\n\nGeneatech : Utiliser Tropy pour la gestion de ses photos d’archive [Youtube - 17 mn]",
     "crumbs": [
       "Ressources sur Tropy",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Vidéos sur Tropy</span>"
@@ -79,7 +79,7 @@
     "href": "Prise-en-main.html",
     "title": "Prise en main",
     "section": "",
-    "text": "Trier par\n       Ordre par défaut\n         \n          Titre\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitre\n\n\n\n\n\n\nCréer un projet\n\n\n\n\nLes modèles de documents\n\n\n\n\nImporter des photos\n\n\n\n\nExporter (projet, photos, données)\n\n\n\n\n\nAucun article correspondant",
+    "text": "Créer un projet\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes modèles de documents\n\n\n\n\n\n\n\n\n\n\n\n\n\nImporter des photos\n\n\n\n\n\n\n\n\n\n\n\n\n\nExporter (projet, photos, données)\n\n\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
       "Prise en main"
     ]

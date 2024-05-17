@@ -1,4 +1,8 @@
-# Tropy, canaux officels
+---
+image: "img/tropy-app-icon-1024x1024.png"
+---
+
+# Canaux officels
 
 - [Documentation](https://docs.tropy.org/)
 - [Support](https://forums.tropy.org/) (forum)

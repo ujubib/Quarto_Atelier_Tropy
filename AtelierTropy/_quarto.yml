@@ -10,12 +10,16 @@ book:
     - "Mélanie Le Couédic"
     - "Julien Rabaud"
   date: "2024-05-16"
-  page-navigation: true
+  page-navigation: false
   repo-url: https://github.com/ujubib/Quarto_Atelier_Tropy
   repo-subdir: /AtelierTropy/
   repo-actions: [source, issue]
   downloads: [pdf, epub]
+  page-footer:
+    background: FloralWhite
   sidebar:
+    style: "floating"
+    background: FloralWhite
     collapse-level: 1
   chapters:
     - index.qmd
@@ -39,8 +43,9 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: journal
     lang: fr
+    backgroundcolor: FloralWhite
     css: styles.css
     lightbox: true
     smooth-scroll: true

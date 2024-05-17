@@ -1,3 +1,26 @@
 figcaption{
     text-align: center;
  }
+
+ #title-block-header {
+    margin-bottom: 4em;
+    background-color: white;
+    padding: 1em;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding-bottom: 1.4em;
+ }
+
+ .quarto-title-meta-heading {
+    text-transform: none !important;
+    color: grey;
+}
+
+.tab-content {
+    background-color: white;
+}
+
+.figure {
+    background-color: white;
+    border-radius: 12px;
+}

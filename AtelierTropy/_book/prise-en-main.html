@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./tropy-projet.html" rel="next">
-<link href="./tropy-blogs.html" rel="prev">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -80,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -312,54 +310,65 @@ window.Quarto = {
 </header>
 
 
-<div id="listing-main" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-main-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-main'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Trier par</option>
-       <option value="index" data-direction="asc">Ordre par défaut</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Titre
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div id="listing-main" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1715940691697" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+<a href="./tropy-projet.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./img/tropy-projet.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Créer un projet
+</h5>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titre</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1715851998775" data-listing-reading-time-sort="1" data-listing-word-count-sort="47" data-listing-title-sort="Créer un projet" data-listing-filename-sort="tropy-projet.qmd">
-<td>
-<a href="./tropy-projet.html" class="title listing-title">Créer un projet</a>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1715871517309" data-listing-reading-time-sort="1" data-listing-word-count-sort="37" data-listing-title-sort="Les modèles de documents" data-listing-filename-sort="tropy-modeles.qmd">
-<td>
-<a href="./tropy-modeles.html" class="title listing-title">Les modèles de documents</a>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1715931129575" data-listing-reading-time-sort="1" data-listing-word-count-sort="125" data-listing-title-sort="Importer des photos" data-listing-filename-sort="tropy-import.qmd">
-<td>
-<a href="./tropy-import.html" class="title listing-title">Importer des photos</a>
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1715857927531" data-listing-reading-time-sort="1" data-listing-word-count-sort="26" data-listing-title-sort="Exporter (projet, photos, données)" data-listing-filename-sort="tropy-export.qmd">
-<td>
-<a href="./tropy-export.html" class="title listing-title">Exporter (projet, photos, données)</a>
-</td>
-</tr>
-</tbody>
-</table>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1715938527562" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+<a href="./tropy-modeles.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./img/diagram-3.svg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Les modèles de documents
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1715938908959" data-listing-reading-time-sort="1" data-listing-word-count-sort="125">
+<a href="./tropy-import.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./img/down.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Importer des photos
+</h5>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-listing-file-modified-sort="1715938961972" data-listing-reading-time-sort="1" data-listing-word-count-sort="26">
+<a href="./tropy-export.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./img/send.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Exporter (projet, photos, données)
+</h5>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 Aucun article correspondant
 </div>
@@ -776,18 +785,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="./tropy-blogs.html" class="pagination-link  aria-label=" &lt;span="" de="" blog&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Billets de blog</span></span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="./tropy-projet.html" class="pagination-link" aria-label="<span class='chapter-number'>6</span>&nbsp; <span class='chapter-title'>Créer un projet</span>">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Créer un projet</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 
 

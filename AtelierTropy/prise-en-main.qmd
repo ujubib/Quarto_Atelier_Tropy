@@ -2,8 +2,8 @@
 listing:
   id: main
   sort: "date"
-  fields: [title]
-  type: table
+  fields: [title, image]
+  type: grid
   contents:
     - tropy-projet.qmd
     - tropy-modeles.qmd
