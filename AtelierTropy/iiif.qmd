@@ -1,4 +1,4 @@
-# Autour des standards IIIF {.unnumbered}
+# Autour des standards **IIIF**
 
 ::: {.callout-note appearance="minimal"}
 **IIIF** (**I***nternational* **I***mage* **I***nteroperability* **F***ramework*™) est un ensemble de standards qui définissent un cadre d’interopérabilité pour la diffusion des images numériques sur le Web.

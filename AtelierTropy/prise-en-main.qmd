@@ -4,6 +4,8 @@ listing:
   sort: "date"
   fields: [title, image]
   type: grid
+  image-height: 200px
+  grid-columns: 2
   contents:
     - tropy-projet.qmd
     - tropy-modeles.qmd

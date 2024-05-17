@@ -1,10 +1,10 @@
 ---
-image: img/down.png
+image: img/tropy-import.png
 ---
 
 # Importer des photos
 
-Formats supportés : 
+## Formats supportés
 
 - JPG/JPEG
 - PNG
@@ -34,7 +34,8 @@ Formats supportés :
 ### CSV
 
 1. Installer le [plugin CSV](https://github.com/tropy/tropy-plugin-csv)
-2. 1. Menu: Edition > Préférences... | onglet *Plugins* -> Définir un profil d'import CSV
+1. Menu: Edition > Préférences... | onglet *Plugins* -> Définir un profil d'import CSV
+1. Menu: Fichier > Importer > Profil CSV : chemin du fichier `.csv`
 
 ### IIIF
 

@@ -1,5 +1,5 @@
 ---
-image: img/notebook.png
+image: img/blog.webp
 ---
 
 # Billets de blog

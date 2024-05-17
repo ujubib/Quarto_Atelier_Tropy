@@ -2,42 +2,46 @@ project:
   type: book
   resources: 
     - ".ttp"
-
-book:
+book: 
   title: "Atelier Tropy"
-  subtitle: "dans le cadre des jeudis d'ITEM"
+  subtitle: "dans le cadre des *Jeudis d'ITEM*"
   author: 
-    - "Mélanie Le Couédic"
-    - "Julien Rabaud"
-  date: "2024-05-16"
+    - Mélanie Le Couédic
+    - Julien Rabaud
+  date: 2024-05-16
   page-navigation: false
-  repo-url: https://github.com/ujubib/Quarto_Atelier_Tropy
-  repo-subdir: /AtelierTropy/
+  favicon: "img/tropy-app-icon-1024x1024.png"
+  repo-url: "https://github.com/ujubib/Quarto_Atelier_Tropy"
+  repo-subdir: "/AtelierTropy/"
   repo-actions: [source, issue]
   downloads: [pdf, epub]
+  sharing: [twitter, facebook]
   page-footer:
     background: FloralWhite
+  margin-header: |
+    ![](/img/jeudi-ditem-1-1-1038x576-1.jpg){width="100%"}
   sidebar:
     style: "floating"
     background: FloralWhite
     collapse-level: 1
   chapters:
     - index.qmd
-    - part: Ressources-tropy.qmd
+    - part: ressources-tropy.qmd
       chapters:
       - tropy-officiel.qmd
       - tropy-extensions.qmd
       - tropy-tutos.qmd
       - tropy-videos.qmd
       - tropy-blogs.qmd
-    - part: Prise-en-main.qmd
+    - part: prise-en-main.qmd
       chapters: 
         - tropy-projet.qmd
         - tropy-modeles.qmd
         - tropy-import.qmd
         - tropy-export.qmd
-    - FAIR.qmd
-    - IIIF.qmd
+  appendices:
+    - fair.qmd
+    - iiif.qmd
 
 bibliography: references.bib
 
@@ -52,13 +56,22 @@ format:
     link-external-icon: true
     link-external-newwindow: true
     reference-location: margin
+    number-sections: false
+    grid:
+      sidebar-width: 300px
+      body-width: 900px
+      margin-width: 300px
+      gutter-width: 1.5rem
   pdf:
     lang: fr
     documentclass: scrreprt
+    number-sections: false
     links-as-notes: true
+    lof: true
+    lot: true
   epub: 
     epub-cover-image: cover.png
     lang: fr
-
-
-
+  docx:
+    lang: fr
+    toc: true

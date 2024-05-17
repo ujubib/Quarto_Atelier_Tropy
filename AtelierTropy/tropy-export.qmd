@@ -1,5 +1,5 @@
 ---
-image: img/send.png
+image: img/floppydisk.jpg
 ---
 
 # Exporter (projet, photos, données)

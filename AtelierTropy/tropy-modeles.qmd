@@ -1,15 +1,21 @@
 ---
-image: img/diagram-3.svg
+image: img/tropy-template.png
 ---
 
-# Modèles de documents
+# Modèles de saisie
 
-## Dans la documentation officielle
+## 3 types
+
+- Objet
+- Photo
+- Sélection
+
+## Documentation officielle
 
 - [What is metadata and how do I use it?](https://docs.tropy.org/before-you-begin/metadata)
 - [Getting started with templates](https://docs.tropy.org/in-the-template-editor/using-templates)
 
-### Exemple du Projet Blot
+## Exemple du Projet Blot
 
-- Template `Blot photos v2` : <button>[Télécharger](BlotPhotosV2.ttp){download="BlotPhotosV2.ttp" target="_blank"}</button>
-  - [Description dans le wiki du projet](https://git.univ-pau.fr/gaelannuzelt/projet-blot/-/wikis/Templates-Tropy)
+- Template `BlotPhotosV2.ttp` : <button>[Télécharger](BlotPhotosV2.ttp){download="BlotPhotosV2.ttp" target="_blank"}</button>
+- [Description dans le wiki du projet](https://git.univ-pau.fr/gaelannuzelt/projet-blot/-/wikis/Templates-Tropy)

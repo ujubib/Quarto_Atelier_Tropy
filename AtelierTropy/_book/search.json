@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Atelier Tropy",
     "section": "",
-    "text": "Accueil\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTropy - Vue items en gallerie\n\n\n\n\n\n\n\nTropy - Vue items en liste\n\n\n\n\n\n\n\nTropy - Photo et sélections\n\n\n\n\n\n\n\n\nTropy est un logiciel de gestion d’images pour la Recherche\n\nscans de documents anciens\nphotographies d’archives\nphotographies de terrain\n…\n\nFait par des chercheurs pour des chercheurs par Digital Scholar (comme Zotero et Omeka)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes jeudis d’ITEM\n\n\n\n\n\n\n\nTropy\n\n\n\n\n\n\n\n\n\n\n\nTropy - Vue items en gallerie\nTropy - Vue items en liste\nTropy - Photo et sélections\nLes jeudis d’ITEM\nTropy",
+    "text": "Tropy - Vue items en gallerie\n\n\n\n\n\n\n\nTropy - Vue items en liste\n\n\n\n\n\n\n\nTropy - Photo et sélections\n\n\n\n\n\nTropy est un logiciel de gestion d’images pour la Recherche\n\nscans de documents anciens\nphotographies d’archives\nphotographies de terrain\n…\n\nFait par des chercheurs pour des chercheurs par Digital Scholar (comme Zotero et Omeka)\n\n\n\n\n\n\n\n\n\n\n\n\nLes jeudis d’ITEM\n\n\n\n\n\n\n\nTropy\n\n\n\n\n\n\n\n\nTropy - Vue items en gallerie\nTropy - Vue items en liste\nTropy - Photo et sélections\nLes jeudis d’ITEM\nTropy",
     "crumbs": [
-      "Accueil"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Accueil</span>"
     ]
   },
   {
-    "objectID": "Ressources-tropy.html",
-    "href": "Ressources-tropy.html",
+    "objectID": "ressources-tropy.html",
+    "href": "ressources-tropy.html",
     "title": "Ressources sur Tropy",
     "section": "",
     "text": "Canaux officels\n\n\n\n\n\n\n\n\n\n\n\n\n\nExtensions\n\n\n\n\n\n\n\n\n\n\n\n\n\nTutoriels\n\n\n\n\n\n\n\n\n\n\n\n\n\nVidéos\n\n\n\n\n\n\n\n\n\n\n\n\n\nBillets de blog\n\n\n\n\n\n\n\nAucun article correspondant",
@@ -22,64 +22,64 @@
   {
     "objectID": "tropy-officiel.html",
     "href": "tropy-officiel.html",
-    "title": "1  Canaux officels",
+    "title": "Canaux officels",
     "section": "",
     "text": "Documentation\nSupport (forum)\nVimeo\nYoutube\nTwitter\nGitHub (code source, templates…)",
     "crumbs": [
       "Ressources sur Tropy",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Canaux officels</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Canaux officels</span>"
     ]
   },
   {
     "objectID": "tropy-extensions.html",
     "href": "tropy-extensions.html",
-    "title": "2  Extensions",
+    "title": "Extensions",
     "section": "",
     "text": "Menu: Préférences… - Plugins\n\n\n\nTable des extensions\n\n\n\n\n\n\nNom (et lien)\nDescription\n\n\n\n\ntropy-plugin-csl\nTropy plugin to export your items to Zotero as CSL/JSON\n\n\ntropy-plugin-omeka\nThis plugin can export selected items into an Omeka S instance.\n\n\ntropy-plugin-archive\nTropy plugin for exporting items into a single zip archive. This includes all the metadata, as well as the photo files.\n\n\ntropy-plugin-csv\nTropy plugin to import items from a CSV file, and export your items to CSV.\n\n\ntropy-plugin-iiif\nDownload a IIIF manifest and select File &gt; Import &gt; tropy-plugin-iiif to start the import. The plugin tries to map the manifest’s metadata to standard metadata properties.\n\n\n\n\n\n\nMenu: Préférences… - Plugins",
     "crumbs": [
       "Ressources sur Tropy",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Extensions</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Extensions</span>"
     ]
   },
   {
     "objectID": "tropy-tutos.html",
     "href": "tropy-tutos.html",
-    "title": "3  Tutoriels",
+    "title": "Tutoriels",
     "section": "",
     "text": "Table des Tutoriels Tropy\n\n\n\n\n\n\nAuteur\nlien\n\n\n\n\nBenjamin Lailler\nTutoriel Tropy\n\n\nStretching numérique 2023\nGérer ses photos d’archives avec Tropy\n\n\nYork Library\nHandout - Tropy and Archival Fieldwork (2 p.)\n\n\nGeorge Mason University Library\nInfoguide Tropy\n\n\nSchlesinger Library on the History of Women in America - Harvard University\nTropy Guide\n\n\nBULAC 2022-04\nSupport de formation - Tropy\n\n\nUniversité de Lille - Pole-Num-Scrums-Skills\nTropy | gestion d’images\n\n\nRennes 2\nGérer ses photos de recherche avec Tropy",
     "crumbs": [
       "Ressources sur Tropy",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Tutoriels</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Tutoriels</span>"
     ]
   },
   {
     "objectID": "tropy-videos.html",
     "href": "tropy-videos.html",
-    "title": "4  Vidéos",
+    "title": "Vidéos",
     "section": "",
     "text": "Le 16 juin 2020, L’équipe de Tropy (Abby Mullen) a tenu un webinaire de type Tropy 101 [Youtube - 1h05]\n\nTropy chanel : Metadata Templates in Tropy [Youtube - 10 mn]\n\n\n\n\n\n\nProjet EVEille : Séance d’initiation à Tropy, animée par Benoît Roux, juin 2021 [e-diffusion UHA - 1h28]\n\nGeneatech : Utiliser Tropy pour la gestion de ses photos d’archive [Youtube - 17 mn]",
     "crumbs": [
       "Ressources sur Tropy",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Vidéos</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Vidéos</span>"
     ]
   },
   {
     "objectID": "tropy-blogs.html",
     "href": "tropy-blogs.html",
-    "title": "5  Billets de blog",
+    "title": "Billets de blog",
     "section": "",
     "text": "Gérer ses photos d’archives avec Tropy - Franziska Heimburger - La boîte à outils des historien·ne·s (2017)\nTropy, un gestionnaire de photos d’archives pour les chercheurs - Florian Innocente, MacGeneration (2017)\nSix months of using Tropy - Emmanuel Mourlon-Druol (2019)\nTropy : un logiciel pour organiser des corpus iconographiques - BULAC (2021)\nNew Project Types in Tropy 1.13 - Tropy Blog (2023-03-31)",
     "crumbs": [
       "Ressources sur Tropy",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Billets de blog</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Billets de blog</span>"
     ]
   },
   {
-    "objectID": "Prise-en-main.html",
-    "href": "Prise-en-main.html",
+    "objectID": "prise-en-main.html",
+    "href": "prise-en-main.html",
     "title": "Prise en main",
     "section": "",
-    "text": "Créer un projet\n\n\n\n\n\n\n\n\n\n\n\n\n\nModèles de documents\n\n\n\n\n\n\n\n\n\n\n\n\n\nImporter des photos\n\n\n\n\n\n\n\n\n\n\n\n\n\nExporter (projet, photos, données)\n\n\n\n\n\n\n\nAucun article correspondant",
+    "text": "Créer un projet\n\n\n\n\n\n\n\n\n\n\n\n\n\nModèles de saisie\n\n\n\n\n\n\n\n\n\n\n\n\n\nImporter des photos\n\n\n\n\n\n\n\n\n\n\n\n\n\nExporter (projet, photos, données)\n\n\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
       "Prise en main"
     ]
@@ -87,162 +87,199 @@
   {
     "objectID": "tropy-projet.html",
     "href": "tropy-projet.html",
-    "title": "6  Créer un projet",
+    "title": "Créer un projet",
     "section": "",
     "text": "Menu: Fichier &gt; Nouveau &gt; Projet (Ctrl+Maj+P)\n\n\n\nLui donner un nom\nChoisir le type (voir New Project Types in Tropy 1.13)\n\nStandard : Copie les photos dans le dossier du projet à l’import\nAdvanced : Lien vers les photos sur votre disque (/!\\)\n\n\n\n\n\nMenu: Fichier &gt; Nouveau &gt; Projet (Ctrl+Maj+P)",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Créer un projet</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Créer un projet</span>"
     ]
   },
   {
     "objectID": "tropy-modeles.html",
     "href": "tropy-modeles.html",
-    "title": "7  Modèles de documents",
+    "title": "Modèles de saisie",
     "section": "",
-    "text": "7.1 Dans la documentation officielle",
+    "text": "3 types",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Modèles de documents</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Modèles de saisie</span>"
     ]
   },
   {
-    "objectID": "tropy-modeles.html#dans-la-documentation-officielle",
-    "href": "tropy-modeles.html#dans-la-documentation-officielle",
-    "title": "7  Modèles de documents",
+    "objectID": "tropy-modeles.html#types",
+    "href": "tropy-modeles.html#types",
+    "title": "Modèles de saisie",
     "section": "",
-    "text": "What is metadata and how do I use it?\nGetting started with templates\n\n\n7.1.1 Exemple du Projet Blot\n\nTemplate Blot photos v2 : Télécharger\n\nDescription dans le wiki du projet",
+    "text": "Objet\nPhoto\nSélection",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Modèles de documents</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Modèles de saisie</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-modeles.html#documentation-officielle",
+    "href": "tropy-modeles.html#documentation-officielle",
+    "title": "Modèles de saisie",
+    "section": "Documentation officielle",
+    "text": "Documentation officielle\n\nWhat is metadata and how do I use it?\nGetting started with templates",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Modèles de saisie</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-modeles.html#exemple-du-projet-blot",
+    "href": "tropy-modeles.html#exemple-du-projet-blot",
+    "title": "Modèles de saisie",
+    "section": "Exemple du Projet Blot",
+    "text": "Exemple du Projet Blot\n\nTemplate BlotPhotosV2.ttp : Télécharger\nDescription dans le wiki du projet",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Modèles de saisie</span>"
     ]
   },
   {
     "objectID": "tropy-import.html",
     "href": "tropy-import.html",
-    "title": "8  Importer des photos",
+    "title": "Importer des photos",
     "section": "",
-    "text": "8.1 Menu: Fichier &gt; Importer &gt; Photos | Dossier",
+    "text": "Formats supportés",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Importer des photos</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Importer des photos</span>"
+    ]
+  },
+  {
+    "objectID": "tropy-import.html#formats-supportés",
+    "href": "tropy-import.html#formats-supportés",
+    "title": "Importer des photos",
+    "section": "",
+    "text": "JPG/JPEG\nPNG\nSVG\nTIFF\nGIF\nPDF\nJP2000\nWEBP\nHEIC\nAVIF",
+    "crumbs": [
+      "Prise en main",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
     "objectID": "tropy-import.html#menu-fichier-importer-photos-dossier",
     "href": "tropy-import.html#menu-fichier-importer-photos-dossier",
-    "title": "8  Importer des photos",
-    "section": "",
-    "text": "Penser à définir un profil d’import par défaut avant.",
+    "title": "Importer des photos",
+    "section": "Menu: Fichier > Importer > Photos | Dossier",
+    "text": "Menu: Fichier &gt; Importer &gt; Photos | Dossier\n\nPenser à définir un profil d’import par défaut avant.",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Importer des photos</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
     "objectID": "tropy-import.html#glisser-déposer",
     "href": "tropy-import.html#glisser-déposer",
-    "title": "8  Importer des photos",
-    "section": "8.2 Glisser-déposer",
-    "text": "8.2 Glisser-déposer\n\nMême recommandation",
+    "title": "Importer des photos",
+    "section": "Glisser-déposer",
+    "text": "Glisser-déposer\n\nMême recommandation",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Importer des photos</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
     "objectID": "tropy-import.html#surveillance-dun-dossier",
     "href": "tropy-import.html#surveillance-dun-dossier",
-    "title": "8  Importer des photos",
-    "section": "8.3 Surveillance d’un dossier",
-    "text": "8.3 Surveillance d’un dossier\n\nMenu: Edition &gt; Préférences… | onglet Projet -&gt; Watch folder",
+    "title": "Importer des photos",
+    "section": "Surveillance d’un dossier",
+    "text": "Surveillance d’un dossier\n\nMenu: Edition &gt; Préférences… | onglet Projet -&gt; Watch folder",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Importer des photos</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
     "objectID": "tropy-import.html#plugins",
     "href": "tropy-import.html#plugins",
-    "title": "8  Importer des photos",
-    "section": "8.4 Plugins",
-    "text": "8.4 Plugins\n\n8.4.1 CSV\n\nInstaller le plugin CSV\n\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import CSV\n\n\n\n\n8.4.2 IIIF\n\nInstaller le plugin IIIF\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import (template) IIIF dans les paramètres du plugin.\nTélécharger un manifeste IIIF (souvent un fichier manifest.json) sur son ordinateur depuis un catalogue IIIF (Gallica, Biblissima, Europeana..)\nDans Tropy, Menu: Fichier &gt; Importer &gt; Profil IIIF : chemin du fichier manifest.json",
+    "title": "Importer des photos",
+    "section": "Plugins",
+    "text": "Plugins\n\nCSV\n\nInstaller le plugin CSV\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import CSV\nMenu: Fichier &gt; Importer &gt; Profil CSV : chemin du fichier .csv\n\n\n\nIIIF\n\nInstaller le plugin IIIF\nMenu: Edition &gt; Préférences… | onglet Plugins -&gt; Définir un profil d’import (template) IIIF dans les paramètres du plugin.\nTélécharger un manifeste IIIF (souvent un fichier manifest.json) sur son ordinateur depuis un catalogue IIIF (Gallica, Biblissima, Europeana..)\nDans Tropy, Menu: Fichier &gt; Importer &gt; Profil IIIF : chemin du fichier manifest.json",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Importer des photos</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Importer des photos</span>"
     ]
   },
   {
     "objectID": "tropy-export.html",
     "href": "tropy-export.html",
-    "title": "9  Exporter (projet, photos, données)",
+    "title": "Exporter (projet, photos, données)",
     "section": "",
-    "text": "9.1 Préférences &gt; Export",
+    "text": "Préférences &gt; Export",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
     ]
   },
   {
     "objectID": "tropy-export.html#menu-exporter",
     "href": "tropy-export.html#menu-exporter",
-    "title": "9  Exporter (projet, photos, données)",
-    "section": "9.2 Menu Exporter",
-    "text": "9.2 Menu Exporter\n\nJSON-LD : LD pour Linked Data\nPDF\nPlugins",
+    "title": "Exporter (projet, photos, données)",
+    "section": "Menu Exporter",
+    "text": "Menu Exporter\n\nJSON-LD : LD pour Linked Data\nPDF\nPlugins",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
     ]
   },
   {
     "objectID": "tropy-export.html#plugins",
     "href": "tropy-export.html#plugins",
-    "title": "9  Exporter (projet, photos, données)",
-    "section": "9.3 Plugins",
-    "text": "9.3 Plugins\n\nArchive : Photos et métadonnées dans un .zip\nCSV\nOmeka S",
+    "title": "Exporter (projet, photos, données)",
+    "section": "Plugins",
+    "text": "Plugins\n\nArchive : Photos et métadonnées dans un .zip\nCSV\nOmeka S",
     "crumbs": [
       "Prise en main",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Exporter (projet, photos, données)</span>"
     ]
   },
   {
-    "objectID": "FAIR.html",
-    "href": "FAIR.html",
-    "title": "Principes FAIR",
+    "objectID": "fair.html",
+    "href": "fair.html",
+    "title": "Annexe A — Produire des données FAIR",
     "section": "",
     "text": "Inspirés par le 5-Star Open Data proné par Tim-Berners Lee, mis en forme par Michael Hausenblas sur ce site : http://5stardata.info/fr/ [22 janvier 2012].\n\n\n\n\n\n\n\nLes étapes 5-Star OpenData\n\n\n\n\n\n\nIllustration des étapes 5-Star OpenData\n\n\n\n\n\n\nétoiles\nétape\n\n\n\n\n★\nPubliez vos données sur le Web (peu importe leur format) avec une licence ouverte\n\n\n★★\nPubliez-les en tant que données structurées (par exemple, un document Excel au lieu d’une image scannée d’un tableau)\n\n\n★★★\nPubliez-les dans un format ouvert et non-propriétaire (par exemple, un CSV plutôt qu’un Excel)\n\n\n★★★★\nUtilisez des URI pour désigner des choses dans vos données, afin que les gens puissent faire des références à celles-ci\n\n\n★★★★★\nliez vos données à d’autres données pour y ajouter du contexte\n\n\n\n\n\n\n\nDécrits ici, d’aprèsThe FAIR Guiding Principles for Scientific Data Management and Stewardship. DOI\n\n\nThe principles refer to three types of entities: data (or any digital object), metadata (information about that digital object), and infrastructure. For instance, principle F4 defines that both metadata and data are registered or indexed in a searchable resource (the infrastructure component).\n\n\nFindableAccessibleInteroperableReusable\n\n\nThe first step in (re)using data is to find them. Metadata and data should be easy to find for both humans and computers. Machine-readable metadata are essential for automatic discovery of datasets and services, so this is an essential component of the FAIRification process.\n\nF1. (Meta)data are assigned a globally unique and persistent identifier\nF2. Data are described with rich metadata (defined by R1 below)\nF3. Metadata clearly and explicitly include the identifier of the data they describe\nF4. (Meta)data are registered or indexed in a searchable resource\n\n\n\nOnce the user finds the required data, she/he/they need to know how can they be accessed, possibly including authentication and authorisation.\n\nA1. (Meta)data are retrievable by their identifier using a standardised communications protocol\n\nA1.1 The protocol is open, free, and universally implementable\nA1.2 The protocol allows for an authentication and authorisation procedure, where necessary\n\nA2. Metadata are accessible, even when the data are no longer available\n\n\n\nThe data usually need to be integrated with other data. In addition, the data need to interoperate with applications or workflows for analysis, storage, and processing.\n\nI1. (Meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation.\nI2. (Meta)data use vocabularies that follow FAIR principles\nI3. (Meta)data include qualified references to other (meta)data\n\n\n\nThe ultimate goal of FAIR is to optimise the reuse of data. To achieve this, metadata and data should be well-described so that they can be replicated and/or combined in different settings.\n\nR1. (Meta)data are richly described with a plurality of accurate and relevant attributes\n\nR1.1. (Meta)data are released with a clear and accessible data usage license\nR1.2. (Meta)data are associated with detailed provenance\nR1.3. (Meta)data meet domain-relevant community standards",
     "crumbs": [
-      "Principes FAIR"
+      "Appendices",
+      "<span class='chapter-number'>A</span>  <span class='chapter-title'>Produire des données **FAIR**</span>"
     ]
   },
   {
-    "objectID": "IIIF.html",
-    "href": "IIIF.html",
-    "title": "Autour des standards IIIF",
+    "objectID": "iiif.html",
+    "href": "iiif.html",
+    "title": "Annexe B — Autour des standards IIIF",
     "section": "",
     "text": "Importer dans Tropy des documents Gallica via le module IIIF",
     "crumbs": [
-      "Autour des standards IIIF"
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Autour des standards **IIIF**</span>"
     ]
   },
   {
-    "objectID": "IIIF.html#importer-dans-tropy-des-documents-gallica-via-le-module-iiif",
-    "href": "IIIF.html#importer-dans-tropy-des-documents-gallica-via-le-module-iiif",
-    "title": "Autour des standards IIIF",
+    "objectID": "iiif.html#importer-dans-tropy-des-documents-gallica-via-le-module-iiif",
+    "href": "iiif.html#importer-dans-tropy-des-documents-gallica-via-le-module-iiif",
+    "title": "Annexe B — Autour des standards IIIF",
     "section": "",
     "text": "API IIIF de récupération des images de Gallica :\n\nBase URL : gallica.bnf.fr/\nManifest : iiif/{ark}/manifest.json\nModèle : gallica.bnf.fr/iiif/ark:/XXXXX/manifest.json\nExemples :\n\ngallica.bnf.fr/iiif/ark:/12148/bd6t538312611/manifest.json\ngallica.bnf.fr/iiif/ark:/12148/btv1b8451475v/manifest.json",
     "crumbs": [
-      "Autour des standards IIIF"
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Autour des standards **IIIF**</span>"
     ]
   },
   {
-    "objectID": "IIIF.html#bonus",
-    "href": "IIIF.html#bonus",
-    "title": "Autour des standards IIIF",
+    "objectID": "iiif.html#bonus",
+    "href": "iiif.html#bonus",
+    "title": "Annexe B — Autour des standards IIIF",
     "section": "Bonus",
     "text": "Bonus\n\nPublier une image avec ses annotations : utilisation de Tesselle en histoire de l’art - Antoine Courtin (Numérique et recherche en histoire de l’art, 2020).\n\nTesselle - médialab SciencesPo\n\nAvec des sources iiif : Adno\n\nExemples\nDocumentation",
     "crumbs": [
-      "Autour des standards IIIF"
+      "Appendices",
+      "<span class='chapter-number'>B</span>  <span class='chapter-title'>Autour des standards **IIIF**</span>"
     ]
   }
 ]

@@ -1,11 +1,7 @@
-<style>
-    h1:nth-of-type(2){display:none}
-</style>
+---
+title: Accueil
+---
 
-# Accueil {.unnumbered}
-
-
-:::: {.callout-tip appearance="minimal"}
 ::: {layout-ncol="3"}
 ![Tropy - Vue items en gallerie](img/tropy_items-gallerie.png){group="accueil"}
 
@@ -13,7 +9,6 @@
 
 ![Tropy - Photo et sélections](img/tropy_vue-photo.png "capture d'écran - affichage d'une photo et de ses sélections"){group="accueil"}
 :::
-::::
 
 [**Tropy**](https://tropy.org) est un logiciel de gestion d'images pour la Recherche 
 
@@ -24,11 +19,12 @@
 
 Fait par des chercheurs pour des chercheurs par [Digital Scholar](https://digitalscholar.org/) (comme [Zotero](https://www.zotero.org/) et [Omeka](https://omeka.org/))
 
+::: {#sep1}
+---
+:::
 
-:::: {.callout-note appearance="minimal"}
 ::: {layout-ncol="2"}
 ![[Les jeudis d'ITEM](https://item.univ-pau.fr/fr/activites-scientifiques/jeudis-d-item.html)](img/jeudi-ditem-1-1-1038x576-1.jpg "bandeau les jeudis d'ITEM"){height="185"}
 
 ![[Tropy](https://tropy.org)](img/tropy-app-icon-1024x1024.png "logo Tropy"){height="185"}
 :::
-::::
