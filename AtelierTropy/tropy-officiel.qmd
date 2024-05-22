@@ -1,5 +1,5 @@
 ---
-image: "img/tropy-app-icon-1024x1024.png"
+image: img/tropy-app-icon-1024x1024.png
 ---
 
 # Canaux officels

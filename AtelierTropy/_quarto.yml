@@ -1,25 +1,38 @@
 project:
   type: book
-  resources: 
+  resources:
     - ".ttp"
-book: 
+book:
   title: "Atelier Tropy"
   subtitle: "dans le cadre des *Jeudis d'ITEM*"
   author: 
-    - Mélanie Le Couédic
-    - Julien Rabaud
+    - name: Mélanie Le Couédic
+      orcid: 0000-0002-3969-4578
+      email: melanie.lecouedic@univ-pau.fr
+      affiliations:
+        - name: Laboratoire ITEM
+          city: Pau
+          url: https://item.univ-pau.fr/fr/accueil.html
+    - name: Julien Rabaud
+      orcid: 0000-0002-6604-9777
+      email: julien.rabaud@univ-pau.fr
+      affiliations:
+        - name: SCD, Bibliothèque de l'IPRA
+          url: https://bibliotheques.univ-pau.fr/fr/infos-pratiques/pau/bibliotheque-de-recherche-de-l-ipra.html
+        - name: CSP-NR, Gestion des données de la recherche
+          url: https://recherche.univ-pau.fr/fr/science-ouverte/donnees-de-la-recherche.html
   date: 2024-05-16
   page-navigation: false
   favicon: "img/tropy-app-icon-1024x1024.png"
   repo-url: "https://github.com/ujubib/Quarto_Atelier_Tropy"
   repo-subdir: "/AtelierTropy/"
   repo-actions: [source, issue]
-  downloads: [pdf, epub]
+  downloads: [pdf, epub, docx]
   sharing: [twitter, facebook]
   page-footer:
     background: FloralWhite
   margin-header: |
-    ![](/img/jeudi-ditem-1-1-1038x576-1.jpg){width="100%"}
+    ![](/img/jeudi-ditem-1-1-1038x576-1.jpg){width='100%'}
   sidebar:
     style: "floating"
     background: FloralWhite

@@ -20,7 +20,7 @@ title: Accueil
 Fait par des chercheurs pour des chercheurs par [Digital Scholar](https://digitalscholar.org/) (comme [Zotero](https://www.zotero.org/) et [Omeka](https://omeka.org/))
 
 ::: {#sep1}
----
+***
 :::
 
 ::: {layout-ncol="2"}
