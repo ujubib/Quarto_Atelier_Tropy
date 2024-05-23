@@ -51,3 +51,7 @@ button>a {
     font-weight: 600;
     font-size: 0.8em;
 }
+
+#title-block-header .author {
+    margin-bottom: .6em !important;
+}
